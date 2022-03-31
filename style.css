@@ -71,8 +71,15 @@ main{
 .projects p{
     margin: 0.5rem 0;
 }
+.projects a{
+    text-decoration: underline;
+    color: #323232;
+    font-family: 'Open Sans', sans-serif;
+}
+
 .website-info, .pomodoro-info, .android-info, .algo-info{
     display: none;
+    margin-bottom: 1rem;
 }
 .website-trigger, .pomodoro-trigger, .android-trigger, .algo-trigger{
     cursor: pointer;
